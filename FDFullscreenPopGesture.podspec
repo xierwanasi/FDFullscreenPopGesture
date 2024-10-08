@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source = { :git => "https://github.com/forkingdog/FDFullscreenPopGesture.git", :tag => "1.1" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "FDFullscreenPopGesture/*.{h,m}"
+  s.source_files  = "FDFullscreenPopGesture/*.{h,m}", "FDFullscreenPopGesture/include/*.{h,m}"
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
 end
