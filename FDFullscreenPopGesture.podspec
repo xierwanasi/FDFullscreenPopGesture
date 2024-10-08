@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.author = { "forkingdog group" => "https://github.com/forkingdog" }
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform = :ios, "13.0"
+  s.ios.deployment_target = '13.0'
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source = { :git => "https://github.com/forkingdog/FDFullscreenPopGesture.git", :tag => "1.1" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
